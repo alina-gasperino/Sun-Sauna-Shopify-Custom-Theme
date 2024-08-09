@@ -75,7 +75,7 @@
           {% if collection.description != blank %}
             <div class="rte">
      {% assign cat_desc = collection.description | split: "<!-- split -->" %}
-{{ cat_desc[0] }}
+      {{ cat_desc[0] }}
    </div>
           {% endif %}
           {% if is_filter_by_available == false and section.settings.sort_enable == false %}

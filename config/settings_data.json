@@ -310,10 +310,18 @@
             "settings": {
               "title": "Brands"
             }
+          },
+          "tag_list_rBHpfG": {
+            "type": "tag-list",
+            "settings": {
+              "title": "Collection",
+              "tags": "Electric Sauna Heater,Electric Heater,Outdoor Sauna Cabin, Bluetooth,dry sauna,Traditional Sauna"
+            }
           }
         },
         "block_order": [
-          "1566331128738"
+          "1566331128738",
+          "tag_list_rBHpfG"
         ],
         "settings": {
           "layout": "grid",

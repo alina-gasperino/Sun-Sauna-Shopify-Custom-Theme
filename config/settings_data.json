@@ -210,63 +210,6 @@
           "autorotate_speed": 7
         }
       },
-      "1566323018031": {
-        "type": "quotes",
-        "blocks": {
-          "1566323018031-0": {
-            "type": "quote",
-            "disabled": true,
-            "settings": {
-              "quote": "<p>Excellent customer service. Great pricing and the Huum Drop 6 with UKU wifi controller is amazing. 100% recommend<\/p>",
-              "quote_name": "Excellent customer service",
-              "quote_date": "",
-              "quote_days": "10 days ago.",
-              "author_rev": "shopify:\/\/shop_images\/563-5633714_5-stars-png-black-reviews-co-uk-stars-removebg-preview.png",
-              "author_img": "shopify:\/\/shop_images\/Component_12_1.png",
-              "trust_img": "shopify:\/\/shop_images\/image_15.png",
-              "author": "Shawn Holiday"
-            }
-          },
-          "1566323018031-1": {
-            "type": "quote",
-            "disabled": true,
-            "settings": {
-              "quote": "<p>After a small issue with the description, Wes acted like a star to fix things and make it right. Superb customer service. Great sauna and easy to build…..<\/p>",
-              "quote_name": "After a small issue with the…",
-              "quote_date": "",
-              "quote_days": "14 days ago",
-              "author_rev": "shopify:\/\/shop_images\/563-5633714_5-stars-png-black-reviews-co-uk-stars-removebg-preview.png",
-              "author_img": "shopify:\/\/shop_images\/Component_10_1.png",
-              "trust_img": "shopify:\/\/shop_images\/image_15.png",
-              "author": "David Alan"
-            }
-          },
-          "1566323018031-2": {
-            "type": "quote",
-            "disabled": true,
-            "settings": {
-              "quote": "<p>I have to say that the Sauna we purchase is high quality and just wonderful. It was very easy to assemble. The person we hired actually showed us how to take it apart if we ever needed to move it. Sun valley customer service is amazing.<\/p>",
-              "quote_name": "Beautiful Sauna",
-              "quote_date": "",
-              "quote_days": "30 days ago",
-              "author_rev": "shopify:\/\/shop_images\/563-5633714_5-stars-png-black-reviews-co-uk-stars-removebg-preview.png",
-              "author_img": "shopify:\/\/shop_images\/Component_11_1.png",
-              "trust_img": "shopify:\/\/shop_images\/image_15.png",
-              "author": "Alexa Macmullen"
-            }
-          }
-        },
-        "block_order": [
-          "1566323018031-0",
-          "1566323018031-1",
-          "1566323018031-2"
-        ],
-        "disabled": true,
-        "settings": {
-          "title": "",
-          "imgg": "shopify:\/\/shop_images\/image_15.png"
-        }
-      },
       "product-template": {
         "type": "product-template",
         "settings": {
@@ -366,50 +309,6 @@
           "layout": "grid",
           "blog_show_author": true,
           "blog_show_date": false
-        }
-      },
-      "1642696192aff7fa01": {
-        "type": "quotes",
-        "blocks": {
-          "1642696192aff7fa01-0": {
-            "type": "quote",
-            "settings": {
-              "quote": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
-              "quote_name": "",
-              "quote_date": "",
-              "quote_days": "",
-              "author": "Author's name"
-            }
-          },
-          "1642696192aff7fa01-1": {
-            "type": "quote",
-            "settings": {
-              "quote": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
-              "quote_name": "",
-              "quote_date": "",
-              "quote_days": "",
-              "author": "Author's name"
-            }
-          },
-          "1642696192aff7fa01-2": {
-            "type": "quote",
-            "settings": {
-              "quote": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
-              "quote_name": "",
-              "quote_date": "",
-              "quote_days": "",
-              "author": "Author's name"
-            }
-          }
-        },
-        "block_order": [
-          "1642696192aff7fa01-0",
-          "1642696192aff7fa01-1",
-          "1642696192aff7fa01-2"
-        ],
-        "disabled": true,
-        "settings": {
-          "title": "Testimonials"
         }
       },
       "1643003457b41f4195": {
@@ -604,7 +503,101 @@
           "text_3rRcEX"
         ],
         "settings": {
-          "bg_color": "#F8F1E9"
+          "bg_color": "#f8f1e9"
+        }
+      },
+      "collection-list": {
+        "type": "collection-list",
+        "blocks": {
+          "featured_collection_JiLkdj": {
+            "type": "featured_collection",
+            "settings": {
+              "collection": "2-person-infrared-saunas"
+            }
+          },
+          "featured_collection_7nRJzd": {
+            "type": "featured_collection",
+            "settings": {
+              "collection": "3-person-saunas"
+            }
+          },
+          "featured_collection_zXYxNP": {
+            "type": "featured_collection",
+            "settings": {
+              "collection": "6-person-saunas"
+            }
+          },
+          "featured_collection_h3jnkH": {
+            "type": "featured_collection",
+            "settings": {
+              "collection": "barrel-saunas"
+            }
+          }
+        },
+        "block_order": [
+          "featured_collection_JiLkdj",
+          "featured_collection_7nRJzd",
+          "featured_collection_zXYxNP",
+          "featured_collection_h3jnkH"
+        ],
+        "settings": {
+          "title": "More to Explore",
+          "grid": 4
+        }
+      },
+      "image-carousel": {
+        "type": "image-carousel",
+        "blocks": {
+          "image_GrKBXy": {
+            "type": "Image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/user.png",
+              "title": "Title",
+              "link": "shopify:\/\/collections\/6-person-saunas"
+            }
+          },
+          "image_7aKQEX": {
+            "type": "Image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/user.png",
+              "title": "Title",
+              "link": "shopify:\/\/collections\/6-person-saunas"
+            }
+          },
+          "image_3GqwaP": {
+            "type": "Image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/user.png",
+              "title": "Title",
+              "link": "shopify:\/\/collections\/6-person-saunas"
+            }
+          },
+          "image_9yg8xm": {
+            "type": "Image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/user.png",
+              "title": "Title",
+              "link": "shopify:\/\/collections\/6-person-saunas"
+            }
+          },
+          "image_HkNXMJ": {
+            "type": "Image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/user.png",
+              "title": "Title",
+              "link": "shopify:\/\/collections\/6-person-saunas"
+            }
+          }
+        },
+        "block_order": [
+          "image_GrKBXy",
+          "image_7aKQEX",
+          "image_3GqwaP",
+          "image_9yg8xm",
+          "image_HkNXMJ"
+        ],
+        "settings": {
+          "heading": "See Why Our Saunas Are the Talk of the Town"
         }
       }
     },
@@ -617,9 +610,7 @@
       "d8ed1e84-f3e3-495d-b0ba-c304f9e0d8c1",
       "1643003457b41f4195",
       "16143570908391507a",
-      "1566323018031",
-      "1566322931771",
-      "1642696192aff7fa01"
+      "1566322931771"
     ],
     "blocks": {
       "855628211100114053": {

@@ -140,6 +140,20 @@ li:has(div[data-testid="ShopifyPay-button"]), li:has(#AmazonPayButton), li:has(d
 .cart__submit-controls:hover svg {
   fill: #fff; 
 }
+.text-carousel {
+  padding: 60px 0;
+}
+.carousel_wrapper {
+  display: flex;
+  justify-content: space-around;
+}
+.carousel_item {
+  font-size: 20px;
+  color: #175D35;
+  line-height: 1.6;
+  display: flex;
+  gap: 5px;
+}
 
 @supports (-webkit-touch-callout: none) {
  @media screen and (max-width:767px){

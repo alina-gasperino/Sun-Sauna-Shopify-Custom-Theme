@@ -189,6 +189,26 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <script type="text/javascript" src="//widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js" async></script>
 <!-- End TrustBox script -->
 
+<!-- heatmap.com snippet -->
+<script>
+  (function() {
+  var _heatmap_paq = window._heatmap_paq || [];
+  var heatUrl = window.heatUrl = "https://dashboard.heatmap.com/";
+  function heatLoader(url, item) {
+  if(typeof handleSinglePagedWebsite !== 'undefined' && item == 'prep') return true;
+  var s = document.createElement("script"); s.type = "text/javascript";
+  s.src = url; s.async = false; s.defer = true; document.head.appendChild(s);
+  }
+  heatLoader(heatUrl+"preprocessor.min.js?sid=2646", "prep");
+  setTimeout(function() {
+  if(typeof _heatmap_paq !== "object" || _heatmap_paq.length == 0) {
+  _heatmap_paq.push(["setTrackerUrl", heatUrl+"heatmap.php"]);
+  heatLoader(heatUrl+"heatmap-light.min.js?sid=2646", "heat");
+  }
+  }, 1000);
+  })();
+  </script>
+  <!-- End heatmap.com snippet Code -->
 
   {{ content_for_header }}  
 </head>

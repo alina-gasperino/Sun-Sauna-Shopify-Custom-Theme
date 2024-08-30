@@ -568,6 +568,44 @@
           "text": "<h1>Shop Premium Saunas Online<\/h1><p>Sun Valley Saunas is your go-to online store for high quality saunas, heaters and accessories. We're proud to be an authorized dealer for leading brands like SaunaLife, Golden Designs, Auroom, and many others. Dive into our collection and find the perfect fit for your relaxation needs!<\/p>",
           "text_size": "large"
         }
+      },
+      "text-carousel": {
+        "type": "text-carousel",
+        "blocks": {
+          "text_xhacGL": {
+            "type": "text",
+            "settings": {
+              "heading": "Free shipping on all orders"
+            }
+          },
+          "text_KUkALa": {
+            "type": "text",
+            "settings": {
+              "heading": "30-Day Money Back Guarantee"
+            }
+          },
+          "text_cA8yjz": {
+            "type": "text",
+            "settings": {
+              "heading": "10-Year Warranty"
+            }
+          },
+          "text_3rRcEX": {
+            "type": "text",
+            "settings": {
+              "heading": "100% Price-Match Guarantee"
+            }
+          }
+        },
+        "block_order": [
+          "text_xhacGL",
+          "text_KUkALa",
+          "text_cA8yjz",
+          "text_3rRcEX"
+        ],
+        "settings": {
+          "bg_color": "#F8F1E9"
+        }
       }
     },
     "content_for_index": [
